@@ -1,4 +1,3 @@
-
 esphome:
   name: ${node_name}
   platform: ESP32
