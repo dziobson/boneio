@@ -1,3 +1,3 @@
 # boneio-grys-rg
 
-Konfiguracja sterownika w rozdzilni głownej
+Konfiguracja sterownika w rozdzielni głównej
