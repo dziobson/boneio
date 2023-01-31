@@ -1,0 +1,7 @@
+uart:
+  id: mod_bus
+  rx_pin: 3
+  tx_pin: 1
+  baud_rate: 9600
+  stop_bits: 1
+  
