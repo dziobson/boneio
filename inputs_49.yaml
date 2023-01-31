@@ -38,7 +38,7 @@ binary_sensor:
               not:
                 api.connected:
             then:
-              - switch.toggle: relay_200
+              - switch.toggle: relay_2
   - platform: gpio
     name: "IN_03"
     pin:
