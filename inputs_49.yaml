@@ -24,7 +24,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_1
   - platform: gpio
-    name: "IN_02"
+    name: "$node IN_02"
     pin:
       pcf8574: pcf_input_2
       number: 12
@@ -40,7 +40,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_2
   - platform: gpio
-    name: "IN_03"
+    name: "$node IN_03"
     pin:
       pcf8574: pcf_input_2
       number: 11
@@ -56,7 +56,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_3
   - platform: gpio
-    name: "IN_04"
+    name: "$node IN_04"
     pin:
       pcf8574: pcf_input_2
       number: 10
@@ -72,7 +72,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_4
   - platform: gpio
-    name: "IN_05"
+    name: "$node IN_05"
     pin:
       pcf8574: pcf_input_2
       number: 9
@@ -88,7 +88,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_5
   - platform: gpio
-    name: "IN_06"
+    name: "$node IN_06"
     pin:
       pcf8574: pcf_input_2
       number: 8
@@ -104,7 +104,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_6
   - platform: gpio
-    name: "IN_07"
+    name: "$node IN_07"
     pin:
       pcf8574: pcf_input_2
       number: 7
@@ -120,7 +120,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_7
   - platform: gpio
-    name: "IN_08"
+    name: "$node IN_08"
     pin:
       pcf8574: pcf_input_2
       number: 6
@@ -136,7 +136,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_8
   - platform: gpio
-    name: "IN_09"
+    name: "$node IN_09"
     pin:
       pcf8574: pcf_input_1
       number: 8
@@ -152,7 +152,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_9
   - platform: gpio
-    name: "IN_10"
+    name: "$node IN_10"
     pin:
       number: 34
       mode:
@@ -167,7 +167,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_10
   - platform: gpio
-    name: "IN_11"
+    name: "$node IN_11"
     pin:
       pcf8574: pcf_input_1
       number: 9
@@ -183,7 +183,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_11
   - platform: gpio
-    name: "IN_12"
+    name: "$node IN_12"
     pin:
       pcf8574: pcf_input_1
       number: 10
@@ -199,7 +199,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_12
   - platform: gpio
-    name: "IN_13"
+    name: "$node IN_13"
     pin:
       pcf8574: pcf_input_1
       number: 7
@@ -215,7 +215,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_13
   - platform: gpio
-    name: "IN_14"
+    name: "$node IN_14"
     pin:
       pcf8574: pcf_input_1
       number: 6
@@ -231,7 +231,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_14
   - platform: gpio
-    name: "IN_15"
+    name: "$node IN_15"
     pin:
       pcf8574: pcf_input_1
       number: 5
@@ -247,7 +247,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_15
   - platform: gpio
-    name: "IN_16"
+    name: "$node IN_16"
     pin:
       pcf8574: pcf_input_1
       number: 4
@@ -263,7 +263,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_16
   - platform: gpio
-    name: "IN_17"
+    name: "$node IN_17"
     pin:
       pcf8574: pcf_input_1
       number: 3
@@ -279,7 +279,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_17
   - platform: gpio
-    name: "IN_18"
+    name: "$node IN_18"
     pin:
       pcf8574: pcf_input_1
       number: 2
@@ -295,7 +295,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_18
   - platform: gpio
-    name: "IN_19"
+    name: "$node IN_19"
     pin:
       pcf8574: pcf_input_1
       number: 1
@@ -311,7 +311,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_19
   - platform: gpio
-    name: "IN_20"
+    name: "$node IN_20"
     pin:
       pcf8574: pcf_input_1
       number: 0
@@ -327,7 +327,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_20
   - platform: gpio
-    name: "IN_21"
+    name: "$node IN_21"
     pin:
       pcf8574: pcf_input_1
       number: 11
@@ -343,7 +343,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_21
   - platform: gpio
-    name: "IN_22"
+    name: "$node IN_22"
     pin:
       pcf8574: pcf_input_1
       number: 12
@@ -359,7 +359,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_22
   - platform: gpio
-    name: "IN_23"
+    name: "$node IN_23"
     pin:
       pcf8574: pcf_input_1
       number: 13
@@ -375,7 +375,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_23
   - platform: gpio
-    name: "IN_24"
+    name: "$node IN_24"
     pin:
       pcf8574: pcf_input_1
       number: 14
@@ -391,7 +391,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_24
   - platform: gpio
-    name: "IN_25"
+    name: "$node IN_25"
     pin:
       pcf8574: pcf_input_1
       number: 15
@@ -407,7 +407,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_25
   - platform: gpio
-    name: "IN_26"
+    name: "$node IN_26"
     pin:
       pcf8574: pcf_input_3
       number: 15
@@ -423,7 +423,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_26
   - platform: gpio
-    name: "IN_27"
+    name: "$node IN_27"
     pin:
       pcf8574: pcf_input_3
       number: 14
@@ -439,7 +439,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_27
   - platform: gpio
-    name: "IN_28"
+    name: "$node IN_28"
     pin:
       pcf8574: pcf_input_3
       number: 13
@@ -455,7 +455,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_28
   - platform: gpio
-    name: "IN_29"
+    name: "$node IN_29"
     pin:
       pcf8574: pcf_input_2
       number: 14
@@ -471,7 +471,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_29
   - platform: gpio
-    name: "IN_30"
+    name: "$node IN_30"
     pin:
       pcf8574: pcf_input_2
       number: 15
@@ -487,7 +487,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_30
   - platform: gpio
-    name: "IN_31"
+    name: "$node IN_31"
     pin:
       pcf8574: pcf_input_2
       number: 5
@@ -503,7 +503,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_31
   - platform: gpio
-    name: "IN_32"
+    name: "$node IN_32"
     pin:
       pcf8574: pcf_input_2
       number: 4
@@ -519,7 +519,7 @@ binary_sensor:
             then:
               - switch.toggle: relay_32
   - platform: gpio
-    name: "IN_33"
+    name: "$node IN_33"
     pin:
       pcf8574: pcf_input_2
       number: 3
@@ -536,7 +536,7 @@ binary_sensor:
               - switch.toggle: relay_33
           
   - platform: gpio
-    name: "IN_34"
+    name: "$node IN_34"
     pin:
       pcf8574: pcf_input_2
       number: 2
@@ -553,7 +553,7 @@ binary_sensor:
               - switch.toggle: relay_34
 
   - platform: gpio
-    name: "IN_35"
+    name: "$node IN_35"
     pin:
       pcf8574: pcf_input_2
       number: 1
@@ -570,7 +570,7 @@ binary_sensor:
               - switch.toggle: relay_35
       
   - platform: gpio
-    name: "IN_36"
+    name: "$node IN_36"
     pin:
       pcf8574: pcf_input_2
       number: 0
@@ -587,7 +587,7 @@ binary_sensor:
               - switch.toggle: relay_36
       
   - platform: gpio
-    name: "IN_37"
+    name: "$node IN_37"
     pin:
       pcf8574: pcf_input_3
       number: 7
@@ -604,7 +604,7 @@ binary_sensor:
               - switch.toggle: relay_37
       
   - platform: gpio
-    name: "IN_38"
+    name: "$node IN_38"
     pin:
       pcf8574: pcf_input_3
       number: 6
@@ -621,7 +621,7 @@ binary_sensor:
               - switch.toggle: relay_38
       
   - platform: gpio
-    name: "IN_39"
+    name: "$node IN_39"
     pin:
       pcf8574: pcf_input_3
       number: 5
@@ -638,7 +638,7 @@ binary_sensor:
               - switch.toggle: relay_39
       
   - platform: gpio
-    name: "IN_40"
+    name: "$node IN_40"
     pin:
       pcf8574: pcf_input_3
       number: 4
@@ -655,7 +655,7 @@ binary_sensor:
               - switch.toggle: relay_40
       
   - platform: gpio
-    name: "IN_41"
+    name: "$node IN_41"
     pin:
       pcf8574: pcf_input_3
       number: 3
@@ -672,7 +672,7 @@ binary_sensor:
               - switch.toggle: relay_41
       
   - platform: gpio
-    name: "IN_42"
+    name: "$node IN_42"
     pin:
       pcf8574: pcf_input_3
       number: 2
@@ -689,7 +689,7 @@ binary_sensor:
               - switch.toggle: relay_42
       
   - platform: gpio
-    name: "IN_43"
+    name: "$node IN_43"
     pin:
       pcf8574: pcf_input_3
       number: 1
@@ -706,7 +706,7 @@ binary_sensor:
               - switch.toggle: relay_43
       
   - platform: gpio
-    name: "IN_44"
+    name: "$node IN_44"
     pin:
       pcf8574: pcf_input_3
       number: 0
@@ -723,7 +723,7 @@ binary_sensor:
               - switch.toggle: relay_44
       
   - platform: gpio
-    name: "IN_45"
+    name: "$node IN_45"
     pin:
       pcf8574: pcf_input_3
       number: 8
@@ -740,7 +740,7 @@ binary_sensor:
               - switch.toggle: relay_45
       
   - platform: gpio
-    name: "IN_46"
+    name: "$node IN_46"
     pin:
       pcf8574: pcf_input_3
       number: 9
@@ -757,7 +757,7 @@ binary_sensor:
               - switch.toggle: relay_46
       
   - platform: gpio
-    name: "IN_47"
+    name: "$node IN_47"
     pin:
       pcf8574: pcf_input_3
       number: 10
@@ -774,7 +774,7 @@ binary_sensor:
               - switch.toggle: relay_47
       
   - platform: gpio
-    name: "IN_48"
+    name: "$node IN_48"
     pin:
       pcf8574: pcf_input_3
       number: 11
@@ -792,7 +792,7 @@ binary_sensor:
       
 
   - platform: gpio
-    name: "IN_49"
+    name: "$node IN_49"
     pin:
       pcf8574: pcf_input_3
       number: 12
